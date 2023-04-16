@@ -5,14 +5,14 @@ import { Cards } from "../../components/cards/Cards";
 
 const cardsData = [
    {
-     src: 'https://scontent-for1-1.xx.fbcdn.net/v/t39.30808-6/259557218_2346914185451319_6896628254111095036_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=C5bIRnojS2AAX8L65Rj&_nc_ht=scontent-for1-1.xx&oh=00_AfCkvmwBzmvFRynxQgb531swalZs3BTFsVzOxg6_FWwJQA&oe=643B89E6',
+     src: 'https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg',
      title: 'Realidade Aumentada',
      description: 'Some quick example text to build on the card title and make up the bulk of the card',
      nameBtn: 'Iniciar a Realidade Aumentada',
      to: '/'
    },
    {
-     src: 'https://scontent-for1-1.xx.fbcdn.net/v/t39.30808-6/259557218_2346914185451319_6896628254111095036_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=C5bIRnojS2AAX8L65Rj&_nc_ht=scontent-for1-1.xx&oh=00_AfCkvmwBzmvFRynxQgb531swalZs3BTFsVzOxg6_FWwJQA&oe=643B89E6',
+     src: 'https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg',
      title: 'Exibir Conteúdo Tradicional',
      description: 'Some quick example text to build on the card title and make up the bulk of the card',
      nameBtn: 'Exibir as Obras',
