@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Initial />}/>
           <Route exact path='/arts' element={<Arts/>}/>
-          <Route exact path='/artItem' element={<ArtItem/>}/>
+          <Route exact path='/artItem/:id' element={<ArtItem/>}/>
 
         </Routes>
     </Router>
