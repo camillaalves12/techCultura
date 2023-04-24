@@ -1,9 +1,9 @@
 import  './App.scss'
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 
-import { Initial } from './pages/initial/Initial';
+import { Initial } from './pages/Initial/Initial';
 import { Arts } from './pages/arts/Arts';
-import { ArtItem } from './pages/artItem/ArtItem';
+import { ArtItem } from './pages/ArtItem/ArtItem';
 
 
 import {
@@ -23,7 +23,6 @@ function App() {
           <Route exact path='/' element={<Initial />}/>
           <Route exact path='/arts' element={<Arts/>}/>
           <Route exact path='/artItem/:id' element={<ArtItem/>}/>
-
         </Routes>
     </Router>
 

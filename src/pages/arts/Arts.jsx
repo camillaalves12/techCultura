@@ -1,5 +1,6 @@
-import { Cards } from "../../components/cards/Cards"
-import { Title } from "../../components/title/Title";
+import { Cards } from "../../components/cards/Cards";
+import { Title } from "../../components/Title/Title";
+import { Footer } from "../../components/Footer/Footer";
 import S from "./styles.module.scss";
 
 import ImgRocheira from '../../img/rocheira.jpg';
@@ -123,6 +124,7 @@ export function Arts() {
             ))}
 
          </div>
+         {/* <Footer /> */}
       </div>
 
      

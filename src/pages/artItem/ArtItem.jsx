@@ -1,8 +1,8 @@
 import S from './styles.module.scss'
 
-import { Art } from '../../components/art/Art'
-import { Title } from '../../components/title/Title'
-import { useParams } from 'react-router-dom'
+import { Title } from '../../components/Title/Title';
+import { useParams } from 'react-router-dom';
+import { Footer } from '../../components/Footer/Footer';
 
 import ImgRocheira from '../../img/rocheira.jpg'
 import PaçoImperial from '../../img/paçoImperial.jpg'
@@ -103,15 +103,24 @@ export function ArtItem() {
   const params = useParams()
   const { id } = params
   const index = parseInt(id) - 1
+
+  // const imgArtItem = src === 'caminho/para/imagem1.jpg' ? 'imagem-1' : 'outra-imagem';
+  // const description = description === 'caminho/para/imagem1.jpg' ? 'imagem-1' : 'outra-imagem';
+
   return (
     <>
       <Title title={itemsData[index].title} />
-      <div>
-        <Art
-          src={itemsData[index].src}
-          description={itemsData[index].description}
-        />
+      <div className={S.divArtItemAll}>
+        <div className={S.divArtItem}>
+          <img src={itemsData[index].src} className={S.ImgArtItem}/>
+          <p className={S.descriptionArtItem}>{itemsData[index].description} </p>
+        </div>
+          {/* <Footer /> */}
       </div>
+
+
     </>
   )
 }
+
+
