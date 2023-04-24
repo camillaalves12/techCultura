@@ -11,6 +11,13 @@
    margin: 0.2rem;
 }
 
+.cardItem:hover {
+   -webkit-box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
+   -moz-box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
+   box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
+}
+
+
 @media (max-width: 440px) {
 
    .cardItem {
