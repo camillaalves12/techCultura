@@ -1,21 +1,22 @@
 import S from './styles.module.scss'
 
-import { Title } from '../../components/Title/Title';
-import { useParams } from 'react-router-dom';
-import { Footer } from '../../components/Footer/Footer';
+import { Title } from '../../components/Title/Title'
+import { useParams } from 'react-router-dom'
+import { Footer } from '../../components/Footer/Footer'
 
-import ImgRocheira from '../../img/rocheira.jpg'
-import PaçoImperial from '../../img/paçoImperial.jpg'
+import ImgRocheira from '../../img/larger/rocheira_larger.png'
+import PaçoImperial from '../../img/larger/pacoImperial_larger.png'
 import MercadoPublico from '../../img/mercadoPublico.jpg'
 import RosarioDosPretos from '../../img/rosarioDosPretos.jpg'
 import Teatro from '../../img/teatro.jpg'
-import Correntes from '../../img/correntes.jpg'
-import CasaDaAposentadoria from '../../img/casaDaAposentadoria.jpg'
-import Convento from '../../img/convento.jpg'
+import Correntes from '../../img/larger/nossa_senhora_das_correntes_larger.png'
+import CasaDaAposentadoria from '../../img/larger/casa_da_aposentadoria_larger.png'
+import Convento from '../../img/larger/convento_larger.png'
 import SantaCruz from '../../img/santaCruz.jpg'
-import Catedral from '../../img/catedral.jpg'
+import Catedral from '../../img/larger/catedral_larger.png'
 import CasaDoPenedo from '../../img/casaDoPenedo.jpg'
 import OratorioDaForca from '../../img/oratorioDaForca.jpg'
+import NavBar from '../../components/Nav'
 
 const itemsData = [
   {
@@ -109,18 +110,17 @@ export function ArtItem() {
 
   return (
     <>
+      <NavBar/>
       <Title title={itemsData[index].title} />
       <div className={S.divArtItemAll}>
         <div className={S.divArtItem}>
-          <img src={itemsData[index].src} className={S.ImgArtItem}/>
-          <p className={S.descriptionArtItem}>{itemsData[index].description} </p>
+          <img src={itemsData[index].src} className={S.ImgArtItem} />
+          <p className={S.descriptionArtItem}>
+            {itemsData[index].description}{' '}
+          </p>
         </div>
-          {/* <Footer /> */}
+        {/* <Footer /> */}
       </div>
-
-
     </>
   )
 }
-
-

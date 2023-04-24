@@ -3,7 +3,7 @@ import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 import { Initial } from './pages/Initial/Initial';
 import { Arts } from './pages/Arts/Arts';
-import { ArtItem } from './pages/ArtItem/ArtItem';
+import { ArtItem } from './pages/artItem/ArtItem';
 
 
 import {

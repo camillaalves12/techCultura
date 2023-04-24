@@ -9,11 +9,15 @@
    background: #0000d032;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: center;   
+}
+
+.homeButton {
+   margin: 10px;
 }
 
 @media (max-width: 440px) {
    .title {
-      font-size: 40px;
+      font-size: 30px;
    }
 }
