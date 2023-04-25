@@ -1,5 +1,5 @@
 import { Cards } from "../../components/cards/Cards";
-import { Title } from "../../components/Title/Title";
+import { Title } from "../../components/title/Title";
 import { Footer } from "../../components/Footer/Footer";
 import S from "./styles.module.scss";
 

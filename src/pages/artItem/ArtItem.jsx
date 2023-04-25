@@ -1,6 +1,6 @@
 import S from './styles.module.scss'
 
-import { Title } from '../../components/Title/Title'
+import { Title } from '../../components/title/Title'
 import { useParams } from 'react-router-dom'
 import { Footer } from '../../components/Footer/Footer'
 
