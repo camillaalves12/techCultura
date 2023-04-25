@@ -1,6 +1,5 @@
 import S from './styles.module.scss'
 
-import { Title } from '../../components/Title/Title'
 import { Cards } from '../../components/cards/Cards'
 import { Footer } from '../../components/Footer/Footer'
 import NavBar from '../../components/Nav'
