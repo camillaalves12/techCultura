@@ -1,8 +1,8 @@
 import  './App.scss'
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 
-import { Initial } from './pages/Initial/Initial';
-import { Arts } from './pages/Arts/Arts';
+import { Initial } from './pages/initial/Initial';
+import { Arts } from './pages/arts/Arts';
 import { ArtItem } from './pages/artItem/ArtItem';
 
 
