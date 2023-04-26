@@ -1,6 +1,6 @@
 import { Cards } from "../../components/cards/Cards";
 import { Title } from "../../components/title/Title";
-import { Footer } from "../../components/Footer/Footer";
+import { Footer } from "../../components/footer/Footer";
 import S from "./styles.module.scss";
 
 import ImgRocheira from '../../img/rocheira.jpg';
@@ -15,7 +15,7 @@ import SantaCruz from '../../img/santaCruz.jpg';
 import Catedral from '../../img/catedral.jpg';
 import CasaDoPenedo from '../../img/casaDoPenedo.jpg';
 import OratorioDaForca from '../../img/oratorioDaForca.jpg';
-import NavBar from "../../components/Nav";
+import NavBar from "../../components/nav";
 
 
    const cardsData = [

@@ -1,8 +1,8 @@
-import S from './styles.module.scss'
+import S from './styles.module.scss';
 
-import { Cards } from '../../components/cards/Cards'
-import { Footer } from '../../components/Footer/Footer'
-import NavBar from '../../components/Nav'
+import { Cards } from '../../components/cards/Cards';
+import { Footer } from '../../components/footer/Footer';
+import NavBar from '../../components/nav';
 
 const cardsData = [
   {

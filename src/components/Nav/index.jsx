@@ -74,13 +74,12 @@ function NavBar() {
             <Link className={S.Link}>
               <Nav>Realidade Aumentada</Nav>
             </Link>
-            <NavDropdown title="Conteúdo Tradicional" id="basic-nav-dropdown">
+            <NavDropdown className={S.LinkDropDownTitle} title="Conteúdo Tradicional" id="basic-nav-dropdown">
               <Link to='/arts' className={S.LinkDropDown}><Nav>Pontos Turísticos</Nav></Link>
               <NavDropdown.Divider />
               {navData.map((item, index) => <Link key={index} to={item.to} className={S.LinkDropDown}><Nav>
                 {item.title}
               </Nav></Link>)}
-              <NavDropdown.Item>Teste</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
