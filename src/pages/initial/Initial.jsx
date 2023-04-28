@@ -1,7 +1,6 @@
 import S from './styles.module.scss';
 
 import { Cards } from '../../components/cards/Cards';
-import { Footer } from '../../components/footer/Footer';
 import NavBar from '../../components/nav';
 
 const cardsData = [
@@ -40,8 +39,6 @@ export function Initial() {
           />
         ))}
       </div>
-
-      {/* <Footer/> */}
     </div>
   )
 }
