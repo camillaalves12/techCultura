@@ -1,7 +1,7 @@
 import S from './styles.module.scss';
 
 import { Cards } from '../../components/cards/Cards';
-import NavBar from '../../components/nav/Nav';
+import { NavBar } from '../../components/nav/Nav.jsx';
 
 const cardsData = [
   {
@@ -25,7 +25,7 @@ const cardsData = [
 export function Initial() {
   return (
     <div className={S.containerAll}>
-      <NavBar/>
+      <NavBar />
 
       <div className={S.containerCards}>
         {cardsData.map((card, index) => (
