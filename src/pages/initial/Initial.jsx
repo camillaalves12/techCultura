@@ -1,7 +1,5 @@
 import S from './styles.module.scss';
-
 import { Cards } from '../../components/cards/Cards';
-import NavBar from '../../components/nav';
 
 const cardsData = [
   {
