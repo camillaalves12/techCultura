@@ -1,8 +1,7 @@
 import S from './styles.module.scss'
 
 import { Title } from '../../components/title/Title'
-import { useParams } from 'react-router-dom'
-import { Footer } from '../../components/footer/Footer'
+import { useParams } from 'react-router-dom';
 
 import ImgRocheira from '../../img/larger/rocheira_larger.png'
 import PaçoImperial from '../../img/larger/pacoImperial_larger.png'
@@ -16,7 +15,7 @@ import SantaCruz from '../../img/santaCruz.jpg'
 import Catedral from '../../img/larger/catedral_larger.png'
 import CasaDoPenedo from '../../img/casaDoPenedo.jpg'
 import OratorioDaForca from '../../img/oratorioDaForca.jpg'
-import NavBar from '../../components/nav'
+import NavBar from '../../components/nav/Nav'
 
 const itemsData = [
   {
@@ -119,7 +118,6 @@ export function ArtItem() {
             {itemsData[index].description}{' '}
           </p>
         </div>
-        {/* <Footer /> */}
       </div>
     </>
   )
