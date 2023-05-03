@@ -13,7 +13,7 @@ import SantaCruz from '../../img/santaCruz.jpg';
 import Catedral from '../../img/catedral.jpg';
 import CasaDoPenedo from '../../img/casaDoPenedo.jpg';
 import OratorioDaForca from '../../img/oratorioDaForca.jpg';
-import NavBar from "../../components/nav/Nav";
+import NavBar from "../../components/Nav/Nav";
 
 
    const cardsData = [
