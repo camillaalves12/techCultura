@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import S from './styles.module.scss'
 import { Link } from 'react-router-dom'
 
-function NavBar() {
+function Header() {
   const navData = [
     {
        title:'Rocheira',
