@@ -16,7 +16,9 @@ export function Cards({ src, title, description, nameBtn, to }) {
 
         <div className={S.divBtns}>
           <Link to={to}>
+
             <Button variant="primary">{nameBtn}</Button>
+            
           </Link>
         </div>
       </Card.Body>
