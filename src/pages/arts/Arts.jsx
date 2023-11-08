@@ -14,7 +14,8 @@ import Catedral from "../../img/larger/catedral_larger.png";
 import CasaDoPenedo from "../../img/larger/casa_do_penedo_larger.png";
 import OratorioDaForca from "../../img//larger/oratorio_larger.png";
 
-import NavBar from "../../components/Nav/Nav";
+import  {Header} from '../../components/Header/Header'
+
 
 
    const cardsData = [
@@ -109,7 +110,7 @@ export function Arts() {
    return(
       
       <div className={S.containerAll}>
-         <NavBar/>
+         <Header/>
          <div className={S.containerCards}>
 
             {cardsData.map((card, index) => (

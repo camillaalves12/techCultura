@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import S from './styles.module.scss'
 import { Link } from 'react-router-dom'
 
-function Header() {
+export function Header() {
   const navData = [
     {
        title:'Rocheira',
@@ -86,5 +86,3 @@ function Header() {
     </Navbar>
   )
 }
-
-export default Header

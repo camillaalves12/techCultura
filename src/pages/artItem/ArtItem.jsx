@@ -17,7 +17,8 @@ import CasaDoPenedo from "../../img/larger/casa_do_penedo_larger.png";
 import OratorioDaForca from "../../img//larger/oratorio_larger.png";
 
 
-import NavBar from "../../components/Nav/Nav";
+import  {Header} from '../../components/Header/Header'
+
 
 const itemsData = [
   {
@@ -187,7 +188,7 @@ export function ArtItem() {
 
   return (
     <>
-      <NavBar />
+      <Header />
       <Title title={itemsData[index].title} />
       <div className={S.divArtItemAll}>
         <div className={S.divArtItem}>
